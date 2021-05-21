@@ -12,8 +12,7 @@
 
 		<title>The Hanged Man</title>
 
-		-->
-	    <!-- Additional CSS Files -->
+		<!-- Archivos CSS adicionales -->
 	    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
 	    <link rel="stylesheet" type="text/css" href="assets/css/font-awesome.css">
@@ -27,18 +26,18 @@
         <link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<body>
-		<!-- ***** Header Area Start ***** -->
+		<!-- ***** Header Area de navegar***** -->
 	    <header class="header-area header-sticky">
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-12">
 	                    <nav class="main-nav">
-	                        <!-- ***** Logo Start ***** -->
+	                        <!-- ***** Logo ***** -->
 	                        <a href="index.php" class="logo">
 	                            <img src="assets/images/Logo.png" align="klassy cafe html template">
 	                        </a>
-	                        <!-- ***** Logo End ***** -->
-	                        <!-- ***** Menu Start ***** -->
+	                        <!-- ***** fin Logo ***** -->
+	                        <!-- ***** Menu de niveles  ***** -->
 	                        <ul class="nav">
 	                        	<li class="scroll-to-section"><a href="#reservation">Subir</a></li>	                             
 	                            <li class="submenu">
@@ -54,33 +53,35 @@
 	                        <a class='menu-trigger'>
 	                            <span>Menu</span>
 	                        </a>
-	                        <!-- ***** Menu End ***** -->
+	                        <!-- ***** fin del Menu de niveles ***** -->
 	                    </nav>
 	                </div>
 	            </div>
 	        </div>
 	    </header>
-    	<!-- ***** Header Area End ***** -->
-		<!-- ***** Reservation Us Area Starts *****--> 
+    	<!-- ***** fin del Header ***** -->
+		<!-- ***** Esto es para que funcione la seleccion del niveles *****--> 
 	    <section class="section" id="reservation">
-		<form id="formulario" name="formulario" action="controller.php" method="POST" hidden>
-								<input type="hidden" name="action" value="1" />
-								<div class="center">
-									<div id="levels-div">
-										<span id="level">
-											<input type="radio" name="level" checked="checked" id="level_0" value="0">
-												<label for="level_0">Dificultad facil: tendras 10 vidas.</label><br>
-											<input type="radio" name="level" id="level_1" value="1">
-												<label for="level_1">Dificultad media: tendras 5 vidas.</label><br>
-											<input type="radio" name="level" id="level_2" value="2">
-												<label for="level_2">Dificultad dificil: tendras 3 vidas.</label>
-										</span>
-									</div>
-									<div>
-										<input type="submit" value="Jugar!!!" id="submit-button" />
-									</div>
-								</div>
-							</form>
+			<form id="formulario" name="formulario" action="controller.php" method="POST" hidden>
+				<input type="hidden" name="action" value="1" />
+				<div class="center">
+					<div id="levels-div">
+						<span id="level">
+							<input type="radio" name="level" checked="checked" id="level_0" value="0">
+								<label for="level_0">Dificultad facil: tendras 10 vidas.</label><br>
+							<input type="radio" name="level" id="level_1" value="1">
+								<label for="level_1">Dificultad media: tendras 5 vidas.</label><br>
+							<input type="radio" name="level" id="level_2" value="2">
+								<label for="level_2">Dificultad dificil: tendras 3 vidas.</label>
+						</span>
+					</div>
+					<div>
+						<input type="submit" value="Jugar!!!" id="submit-button" />
+					</div>
+				</div>
+			</form>
+			<!-- ***** FIN ***** -->
+			<!-- ***** contenedor del juego ***** -->
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-lg-6 align-self-center">
@@ -90,12 +91,14 @@
 	                            	<div class="col-lg-12" align="center">
 	                                	<h3> Adivina, Piensa y Gana </h3>
 	                            	</div><br><br><br>
+	                            	<!-- ***** imagen del juego ***** -->
 	                            	<div class="col-sm-12">
 	                               		<div align="center" class="thumb">
                                            <img src="images/hangman/0.jpg" id="hangman" alt="hangman">
 	                              		</div>
 	                              	</div>
 	                            </div><br>
+	                            <!-- ***** ingresar letra en el juego ***** -->
 	                            <div class="row">
 	                            	<div class="col-lg-12">
 	                            	 	Selecciona una letra:
@@ -130,7 +133,6 @@
 	                            <br>
 	                        </form>
 	                    </div>
-
 	                </div>
 	                <div class="col-lg-6">
 	                   <div class="left-text-content">
@@ -186,8 +188,8 @@
 	            </div>
 	        </div>
 	    </section>
-    <!-- ***** Reservation Area Ends ***** -->
-
+	<!-- ***** Fin del Area contenedor  ***** -->
+    <!-- ***** Footer ***** -->
 		<footer>
 	        <div class="container">
 	            <div class="row">

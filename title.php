@@ -11,13 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
     <title>The Hanged Man</title>
-<!--
-    
-TemplateMo 558 Klassy Cafe
 
-https://templatemo.com/tm-558-klassy-cafe
-
--->
     <!-- Additional CSS Files -->
     <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 
@@ -44,37 +38,35 @@ https://templatemo.com/tm-558-klassy-cafe
     <!-- ***** Preloader End ***** -->
     
     
-    <!-- ***** Header Area Start ***** -->
+    <!-- ***** Header Area de navegación ***** -->
     <header class="header-area header-sticky">
         <div class="container">
             <div class="row">
                 <div class="col-12">
                     <nav class="main-nav">
-                        <!-- ***** Logo Start ***** -->
+                        <!-- ***** Logo***** -->
                         <a href="index.php" class="logo">
                             <img src="assets/images/Logo.png" align="klassy cafe html template">
                         </a>
-                        <!-- ***** Logo End ***** -->
-                        <!-- ***** Menu Start ***** -->
+                        <!-- ***** Menu de navegación ***** -->
                         <ul class="nav">
                             <li class="scroll-to-section"><a href="#top" class="active">Inicio</a></li>
                             <li class="scroll-to-section"><a href="#about">¿Qué debo saber?</a></li>
                             <li class="scroll-to-section"><a href="#offers">Niveles</a></li>
-                            <!-- <li class=""><a rel="sponsored" href="https://templatemo.com" target="_blank">External URL</a></li> -->
                             <li class="scroll-to-section"><a onclick="enviar_formulario();">Jugar</a></li> 
                         </ul>        
                         <a class='menu-trigger'>
                             <span>Menu</span>
                         </a>
-                        <!-- ***** Menu End ***** -->
+                        <!-- ***** FIN DE Menu  ***** -->
                     </nav>
                 </div>
             </div>
         </div>
     </header>
-    <!-- ***** Header Area End ***** -->
+    <!-- *****FIN DEL Area  Header ***** -->
 
-    <!-- ***** Main Banner Area Start ***** -->
+    <!-- *****  Area Banner   ***** -->
     <div id="top">
         <div class="container-fluid">
             <div class="row">
@@ -92,36 +84,33 @@ https://templatemo.com/tm-558-klassy-cafe
                 <div class="col-lg-8">
                     <div class="main-banner header-text">
                         <div class="Modern-Slider">
-                          <!-- Item -->
+                          <!-- imangen 1-->
                           <div class="item">
                             <div class="img-fill">
                                 <img src="assets/images/slide-01.jpg" alt="">
                             </div>
                           </div>
-                          <!-- // Item -->
-                          <!-- Item -->
+                          <!-- imangen 2 -->
                           <div class="item">
                             <div class="img-fill">
                                 <img src="assets/images/slide-02.jpg" alt="">
                             </div>
                           </div>
-                          <!-- // Item -->
-                          <!-- Item -->
+                          <!-- imangen 3 -->
                           <div class="item">
                             <div class="img-fill">
                                 <img src="assets/images/slide-03.jpg" alt="">
                             </div>
                           </div>
-                          <!-- // Item -->
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- ***** Main Banner Area End ***** -->
+    <!-- ***** Fin del Area Banner ***** -->
 
-    <!-- ***** About Area Starts ***** -->
+    <!-- ***** Sección del ¿Qué debo Saber? ***** -->
     <section class="section" id="about">
         <div class="container">
             <div class="row">
@@ -162,9 +151,9 @@ https://templatemo.com/tm-558-klassy-cafe
             </div>
         </div>
     </section>
-    <!-- ***** About Area Ends ***** -->
+    <!-- ***** fin de Sección ***** -->
 
-    <!-- ***** Menu Area Starts ***** -->
+    <!-- ***** Esto es para que me funcione la seleccion del niveles ***** -->
     <div id="hangman-div">
         <form id="formulario" name="formulario" action="controller.php" method="POST" hidden>
             <input type="hidden" name="action" value="1" />
@@ -185,9 +174,9 @@ https://templatemo.com/tm-558-klassy-cafe
             </div>
         </form>
     </div>               
-    <!-- ***** Menu Area Ends ***** -->
+    <!-- ***** FIN ***** -->
 
-    <!-- ***** Menu Area Starts ***** -->
+    <!-- ***** Sección para Escoger los niveles y entrar al juego***** -->
     <section class="section" id="offers">
         <div class="container">
             <div class="row">
@@ -249,9 +238,9 @@ https://templatemo.com/tm-558-klassy-cafe
             </div>
         </div>
     </section>
-    <!-- ***** Chefs Area Ends ***** --> 
+    <!-- ***** fin de la sección ***** --> 
     
-    <!-- ***** Footer Start ***** -->
+    <!-- ***** Footer ***** -->
     <footer>
         <div class="container">
             <div class="row">

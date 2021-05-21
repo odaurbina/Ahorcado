@@ -19,7 +19,7 @@ else
 
 switch($action)
 {
-    case 0: // Title
+    case 0: // Title seleccion del nivel
         $levels = array('0' => 'Easy game: you are allowed 10 misses.',
                         '1' => 'Medium game: you are allowed 5 misses.',
                         '2' => 'Hard game: you are allowed 3 misses.');
@@ -28,7 +28,7 @@ switch($action)
                       
         break;
         
-    case 1: // Start
+    case 1: // Start para leer las palabras
         $lines = file('dictionary.txt');      
         $word = $lines[rand(0, count($lines) - 1)];
         $word = substr($word, 0, strlen($word) - 1);
@@ -44,13 +44,13 @@ switch($action)
         
         switch($level)
         {
-            case 0: // Easy
+            case 0: // Nivel Básico
                 $_SESSION['lives'] = 10;
                 break;
-            case 1: // Medium
+            case 1: // Nivel intermedio
                 $_SESSION['lives'] = 5;
                 break;
-            case 2: // Hard
+            case 2: //Nivel experto
                 $_SESSION['lives'] = 3;
                 break;                
         }
@@ -66,7 +66,7 @@ switch($action)
         require 'start.php';
         
         break;
-    case 2: // Called via AJAX
+    case 2: // Llamado a través de AJAX
         $response = array();
         
         if($_SESSION['win'] == null)
